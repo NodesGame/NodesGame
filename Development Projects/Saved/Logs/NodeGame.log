@@ -1,4 +1,4 @@
-﻿Log file open, 03/14/18 21:26:07
+﻿Log file open, 03/14/18 22:02:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: NodeGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1908294733) SRandInit(-1908294733).
+LogInit: Display: RandInit(-744240150) SRandInit(-744240150).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.589401
+LogStats: Stats thread started at 0.170813
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,229 +113,1034 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.14-21.26.08:423][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.14-21.26.08:423][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.14-21.26.08:452][  0]LogInit: Computer: DESKTOP-VHLABJA
-[2018.03.14-21.26.08:452][  0]LogInit: User: benjr
-[2018.03.14-21.26.08:452][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.14-21.26.08:452][  0]LogInit: High frequency timer resolution =2.531254 MHz
-[2018.03.14-21.26.08:452][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.14-21.26.08:452][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.14-21.26.08:452][  0]LogMemory: Process Physical Memory: 281.35 MB used, 281.35 MB peak
-[2018.03.14-21.26.08:452][  0]LogMemory: Process Virtual Memory: 282.23 MB used, 282.23 MB peak
-[2018.03.14-21.26.08:452][  0]LogMemory: Physical Memory: 4059.66 MB used,  12235.77 MB free, 16295.43 MB total
-[2018.03.14-21.26.08:452][  0]LogMemory: Virtual Memory: 715.46 MB used,  12235.77 MB free, 134217728.00 MB total
-[2018.03.14-21.26.08:838][  0]LogInit: Using OS detected language (en-GB).
-[2018.03.14-21.26.08:838][  0]LogInit: Using OS detected locale (en-GB).
-[2018.03.14-21.26.08:910][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.03.14-21.26.11:713][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.14-21.26.11:761][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.03.14-21.26.11:761][  0]LogD3D11RHI:       2019/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.14-21.26.11:768][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.03.14-21.26.11:768][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.14-21.26.11:772][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.14-21.26.11:772][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.14-21.26.11:772][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.14-21.26.11:779][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.14-21.26.11:779][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.03.14-21.26.11:779][  0]LogWindows: EnumDisplayDevices:
-[2018.03.14-21.26.11:779][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.03.14-21.26.11:779][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.03.14-21.26.11:779][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.03.14-21.26.11:779][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.14-21.26.11:779][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.03.14-21.26.11:779][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.14-21.26.11:779][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.14-21.26.11:779][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.03.14-21.26.11:812][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.14-21.26.11:838][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.14-21.26.11:843][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Intermediate/Shaders/WorkingDirectory/12428/).
-[2018.03.14-21.26.11:843][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/benjr/AppData/Local/Temp/UnrealShaderWorkingDir/A30AD64141FF5EE43BADA5BDB87D248A/'.
-[2018.03.14-21.26.11:843][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.14-21.26.13:860][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.14-21.26.13:914][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.14-21.26.13:964][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.14-21.26.14:014][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.14-21.26.14:070][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.14-21.26.14:119][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.14-21.26.14:170][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.14-21.26.14:222][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.14-21.26.14:269][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.14-21.26.14:322][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.14-21.26.14:372][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.14-21.26.14:421][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.14-21.26.14:470][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.14-21.26.14:520][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.14-21.26.14:570][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.14-21.26.14:670][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.14-21.26.14:670][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.14-21.26.14:709][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.14-21.26.14:810][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.14-21.26.14:839][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.14-21.26.14:889][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.14-21.26.14:943][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.14-21.26.14:992][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.14-21.26.15:045][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.14-21.26.15:045][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.14-21.26.15:610][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.14-21.26.15:795][  0]LogDerivedDataCache: Loaded boot cache 0.18s 93MB C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.03.14-21.26.15:796][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.03.14-21.26.15:796][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.14-21.26.15:796][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.14-21.26.15:796][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.14-21.26.15:796][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.14-21.26.15:825][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.14-21.26.15:839][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benjr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.14-21.26.15:851][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.14-21.26.15:859][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.14-21.26.15:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.14-21.26.15:874][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.14-21.26.16:599][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
-[2018.03.14-21.26.16:743][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.14-21.26.17:165][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.03.14-21.26.17:546][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.14-21.26.17:588][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.14-21.26.17:588][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.14-21.26.17:588][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.14-21.26.17:588][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.14-21.26.17:588][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.14-21.26.18:403][  0]LogNetVersion: NodeGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2672119057)
-[2018.03.14-21.26.18:935][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.073499 seconds
-[2018.03.14-21.26.18:941][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.03.14-21.26.18:941][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.03.14-21.26.18:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.14-21.26.19:006][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.14-21.26.24:714][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.14-21.26.24:765][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.14-21.26.25:593][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.14-21.26.26:214][  0]SourceControl: Source control is disabled
-[2018.03.14-21.26.26:214][  0]SourceControl: Source control is disabled
-[2018.03.14-21.26.26:300][  0]SourceControl: Source control is disabled
-[2018.03.14-21.26.26:358][  0]SourceControl: Source control is disabled
-[2018.03.14-21.26.26:987][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.14-21.26.27:249][  0]LogOcInput: OculusInput pre-init called
-[2018.03.14-21.26.27:649][  0]LogEngine: Initializing Engine...
-[2018.03.14-21.26.27:652][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.14-21.26.28:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.14-21.26.28:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.14-21.26.28:440][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.14-21.26.28:466][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.14-21.26.28:498][  0]LogInit: FAudioDevice initialized.
-[2018.03.14-21.26.28:594][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.03.14-21.26.28:611][  0]LogInit: Texture streaming: Enabled
-[2018.03.14-21.26.28:784][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.14-21.26.29:164][  0]LogInit: Transaction tracking system initialized
-[2018.03.14-21.26.29:894][  0]BlueprintLog: New page: Editor Load
-[2018.03.14-21.26.30:904][  0]LocalizationService: Localization service is disabled
-[2018.03.14-21.26.31:649][  0]LogConsoleResponse: Display: 
-[2018.03.14-21.26.32:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/Unreal Projects/NodeGame/Content/' took 0.02s
-[2018.03.14-21.26.32:105][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.14-21.26.32:105][  0]LogCook: Display: Mobile HDR setting 0
-[2018.03.14-21.26.32:106][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.14-21.26.33:264][  0]SourceControl: Source control is disabled
-[2018.03.14-21.26.33:266][  0]Cmd: MAP LOAD FILE="../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.14-21.26.33:271][  0]LightingResults: New page: Lighting Build
-[2018.03.14-21.26.33:342][  0]MapCheck: New page: Map Check
-[2018.03.14-21.26.33:343][  0]LightingResults: New page: Lighting Build
-[2018.03.14-21.26.33:872][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2018.03.14-21.26.33:906][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.14-21.26.33:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.14-21.26.33:979][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.855ms to complete.
-[2018.03.14-21.26.33:979][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.714
-[2018.03.14-21.26.34:338][  0]LogCollectionManager: Loaded 0 collections in 0.001711 seconds
-[2018.03.14-21.26.34:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/Unreal Projects/NodeGame/Saved/Collections/' took 0.01s
-[2018.03.14-21.26.34:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/Unreal Projects/NodeGame/Content/Developers/benjr/Collections/' took 0.01s
-[2018.03.14-21.26.34:429][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/Unreal Projects/NodeGame/Content/Collections/' took 0.01s
-[2018.03.14-21.26.34:429][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.14-21.26.34:440][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2386 classes and 500 folders.
-[2018.03.14-21.26.34:507][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.03.14-21.26.34:977][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.14-21.26.35:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.03.14-21.26.35:085][  0]LogSlate: Took 0.006840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.14-21.26.35:095][  0]LogSlate: Took 0.005667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.14-21.26.35:106][  0]LogSlate: Took 0.004677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.14-21.26.35:261][  0]LogRenderer: Reallocating scene render targets to support 876x436 Format 10 NumSamples 1 (Frame:1).
-[2018.03.14-21.26.35:458][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.03.14-21.26.35:458][  0]LogLoad: (Engine Initialization) Total time: 30.07 seconds
-[2018.03.14-21.26.35:458][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.14-21.26.35:458][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.14-21.26.35:496][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.14-21.26.35:541][  0]LogSlate: Took 0.005088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.14-21.26.35:553][  1]LogAssetRegistry: Asset discovery search completed in 18.9756 seconds
-[2018.03.14-21.26.35:554][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.14-21.26.35:554][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2018.03.14-21.26.56:185][ 45]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.14-21.26.56:195][ 45]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.14-21.26.56:207][ 45]LightingResults: New page: Lighting Build
-[2018.03.14-21.26.56:208][ 45]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.03.14-21.26.56:212][ 45]MapCheck: New page: Map Check
-[2018.03.14-21.26.56:213][ 45]LightingResults: New page: Lighting Build
-[2018.03.14-21.26.56:260][ 45]LogAIModule: Creating AISystem for world Untitled_1
-[2018.03.14-21.26.56:273][ 45]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.14-21.26.56:294][ 45]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.14-21.26.56:342][ 45]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.834ms to complete.
-[2018.03.14-21.26.56:342][ 45]LogFileHelpers: Loading map 'Template_Default' took 0.158
-[2018.03.14-21.27.01:415][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.14-21.27.04:475][522]Cmd: DELETE
-[2018.03.14-21.27.04:475][522]Cmd: ACTOR DELETE
-[2018.03.14-21.27.04:478][522]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.14-21.27.04:491][522]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2018.03.14-21.27.11:893][964]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2018.03.14-21.27.11:903][964]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.03.14-21.29.30:521][262]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.14-21.29.30:565][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.14-21.29.30:566][262]PIE: New page: PIE session: Untitled_1 (14 Mar 2018 21:29:30)
-[2018.03.14-21.29.30:566][262]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.03.14-21.29.30:569][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002674s)
-[2018.03.14-21.29.30:570][262]LogAIModule: Creating AISystem for world Untitled_1
-[2018.03.14-21.29.30:571][262]LogPlayLevel: PIE: World Init took: (0.001788s)
-[2018.03.14-21.29.30:571][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004874s)
-[2018.03.14-21.29.30:628][262]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.14-21.29.30:640][262]LogInit: FAudioDevice initialized.
-[2018.03.14-21.29.30:688][262]LogLoad: Game class is 'TwinStickGameMode_C'
-[2018.03.14-21.29.30:692][262]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.03.14-21.29.30
-[2018.03.14-21.29.30:693][262]LogWorld: Bringing up level for play took: 0.003267
-[2018.03.14-21.29.30:771][262]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2018.03.14-21.29.30:773][262]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.574
-[2018.03.14-21.29.37:385][649]LogEditorViewport: Clicking on Actor (LMB): TwinStickPawn_C (TwinStickPawn)
-[2018.03.14-21.29.41:279][882]Cmd: DELETE
-[2018.03.14-21.29.41:279][882]Cmd: ACTOR DELETE
-[2018.03.14-21.29.41:279][882]LogEditorActor: Deleted Actor: TwinStickPawn_C
-[2018.03.14-21.29.41:317][882]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2018.03.14-21.29.53:741][627]LogSlate: Took 0.005363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.14-21.30.18:585][ 87]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
-[2018.03.14-21.30.19:456][ 87]LogSlate: Took 0.005296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:FireSound' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:UserConstructionScript' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:CameraComponent' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:CameraBoom' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:ShipMeshComponent' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:MovementSpeed' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:GunOffset' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:FireRate' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:CanFire' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:FireSound' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C:ReceiveTick' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.SKEL_PlayerNode_C' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:CanFire' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:FireRate' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:GunOffset' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:MovementSpeed' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:ShipMeshComponent' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:506][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:CameraBoom' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:507][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:CameraComponent' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:507][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:ReceiveTick' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:507][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:UserConstructionScript' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:507][434]LogMetaData: Removing '/Game/Player/PlayerNode.PlayerNode_C:ExecuteUbergraph_PlayerNode' ref from Metadata '/Game/TwinStickBP/Blueprints/PlayerNode.PackageMetaData'
-[2018.03.14-21.33.49:541][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerNode" FILE="../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Content/Player/PlayerNode.uasset" SILENT=true
-[2018.03.14-21.33.49:641][434]LogSavePackage: Save=97.43ms
-[2018.03.14-21.33.49:641][434]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Saved/PlayerNode5E1CD82443ACA671D1BFAD95BA374910.tmp' to '../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Content/Player/PlayerNode.uasset'
-[2018.03.14-21.33.49:649][434]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Content/Player/PlayerNode.uasset
-[2018.03.14-21.36.50:002][376]LogSlate: Took 0.005669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.14-21.36.59:114][403]LogSavePackage: Save=25.04ms
-[2018.03.14-21.36.59:114][403]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Saved/Untitled_1_Auto17D4B7C9C46C572C472F5FC808B0420CD.tmp' to '../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
-[2018.03.14-21.36.59:115][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/Unreal Projects/NodeGame/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
-[2018.03.14-21.36.59:120][403]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.049
-[2018.03.14-21.36.59:120][403]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
-[2018.03.14-21.52.28:224][342]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.03.14-22.02.04:438][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-22.02.04:438][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-22.02.04:460][  0]LogInit: Computer: DESKTOP-VHLABJA
+[2018.03.14-22.02.04:460][  0]LogInit: User: benjr
+[2018.03.14-22.02.04:460][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.14-22.02.04:460][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2018.03.14-22.02.04:460][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.14-22.02.04:460][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-22.02.04:460][  0]LogMemory: Process Physical Memory: 279.33 MB used, 279.33 MB peak
+[2018.03.14-22.02.04:460][  0]LogMemory: Process Virtual Memory: 282.36 MB used, 282.36 MB peak
+[2018.03.14-22.02.04:460][  0]LogMemory: Physical Memory: 4783.13 MB used,  11512.31 MB free, 16295.43 MB total
+[2018.03.14-22.02.04:460][  0]LogMemory: Virtual Memory: 714.93 MB used,  11512.31 MB free, 134217728.00 MB total
+[2018.03.14-22.02.04:723][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.14-22.02.04:723][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.14-22.02.04:770][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.14-22.02.07:217][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-22.02.07:260][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.03.14-22.02.07:260][  0]LogD3D11RHI:       2019/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.14-22.02.07:269][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.03.14-22.02.07:269][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.14-22.02.07:271][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-22.02.07:271][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-22.02.07:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-22.02.07:276][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-22.02.07:276][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-22.02.07:276][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-22.02.07:276][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.03.14-22.02.07:277][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.03.14-22.02.07:277][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.03.14-22.02.07:277][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-22.02.07:277][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.03.14-22.02.07:277][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-22.02.07:277][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-22.02.07:277][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.14-22.02.07:300][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-22.02.07:314][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.14-22.02.07:314][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Intermediate/Shaders/WorkingDirectory/9308/).
+[2018.03.14-22.02.07:315][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/benjr/AppData/Local/Temp/UnrealShaderWorkingDir/251B84C74F053C1830E7EDA3AFC3FDCA/'.
+[2018.03.14-22.02.07:315][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.14-22.02.09:033][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-22.02.09:083][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-22.02.09:130][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-22.02.09:178][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-22.02.09:232][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.14-22.02.09:283][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-22.02.09:335][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-22.02.09:385][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-22.02.09:434][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-22.02.09:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-22.02.09:538][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-22.02.09:590][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-22.02.09:641][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-22.02.09:690][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-22.02.09:743][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-22.02.09:842][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-22.02.09:842][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-22.02.09:879][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-22.02.09:975][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.14-22.02.10:003][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-22.02.10:052][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-22.02.10:111][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-22.02.10:165][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-22.02.10:221][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-22.02.10:221][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.14-22.02.10:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-22.02.10:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-22.02.10:832][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-22.02.10:845][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benjr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-22.02.10:857][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-22.02.10:858][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-22.02.10:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-22.02.10:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-22.02.11:265][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.03.14-22.02.11:384][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-22.02.11:904][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-22.02.11:947][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-22.02.11:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-22.02.11:947][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.14-22.02.11:947][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.14-22.02.11:947][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.14-22.02.11:960][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.14-22.02.12:653][  0]LogNetVersion: NodeGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2672119057)
+[2018.03.14-22.02.13:047][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055044 seconds
+[2018.03.14-22.02.13:053][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.14-22.02.13:053][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.14-22.02.13:053][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-22.02.13:110][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-22.02.17:613][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-22.02.17:653][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-22.02.18:411][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-22.02.18:894][  0]SourceControl: Source control is disabled
+[2018.03.14-22.02.19:591][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-22.02.19:835][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-22.02.20:103][  0]LogEngine: Initializing Engine...
+[2018.03.14-22.02.20:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.14-22.02.20:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-22.02.20:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-22.02.20:574][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-22.02.20:595][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.02.20:625][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-22.02.20:711][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/benjr/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.14-22.02.20:720][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-22.02.20:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-22.02.21:046][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-22.02.21:358][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-22.02.22:324][  0]LocalizationService: Localization service is disabled
+[2018.03.14-22.02.23:088][  0]LogConsoleResponse: Display: 
+[2018.03.14-22.02.23:467][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-22.02.23:467][  0]LogCook: Display: Mobile HDR setting 0
+[2018.03.14-22.02.23:468][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-22.02.23:989][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/' took 0.01s
+[2018.03.14-22.02.24:675][  0]LogSlate: Took 0.005766 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-22.02.33:260][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-22.02.33:263][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-22.02.33:270][  0]Cmd: MAP LOAD FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-22.02.33:271][  0]LightingResults: New page: Lighting Build
+[2018.03.14-22.02.33:323][  0]MapCheck: New page: Map Check
+[2018.03.14-22.02.33:323][  0]LightingResults: New page: Lighting Build
+[2018.03.14-22.02.33:752][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.03.14-22.02.33:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-22.02.33:789][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-22.02.33:848][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.165ms to complete.
+[2018.03.14-22.02.33:848][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.578
+[2018.03.14-22.02.33:961][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_32a0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3648_0///####STATCAT_Advanced####
+[2018.03.14-22.02.33:961][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
+[2018.03.14-22.02.34:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Collections/' took 0.01s
+[2018.03.14-22.02.34:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Developers/benjr/Collections/' took 0.01s
+[2018.03.14-22.02.34:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Collections/' took 0.01s
+[2018.03.14-22.02.34:039][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.14-22.02.34:050][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2386 classes and 500 folders.
+[2018.03.14-22.02.34:114][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.03.14-22.02.34:426][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.03.14-22.02.34:483][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.14-22.02.34:510][  0]LogSlate: Took 0.005054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-22.02.34:521][  0]LogSlate: Took 0.005214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-22.02.34:692][  0]LogRenderer: Reallocating scene render targets to support 876x436 Format 10 NumSamples 1 (Frame:1).
+[2018.03.14-22.02.34:889][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.14-22.02.34:890][  0]LogLoad: (Engine Initialization) Total time: 32.44 seconds
+[2018.03.14-22.02.34:890][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.14-22.02.34:890][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.14-22.02.34:925][  0]LogAssetRegistry: Asset discovery search completed in 23.6820 seconds
+[2018.03.14-22.02.34:926][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.14-22.02.34:926][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.03.14-22.02.34:929][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-22.02.34:959][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-22.02.50:714][851]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-22.02.50:721][851]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-22.02.50:735][851]LightingResults: New page: Lighting Build
+[2018.03.14-22.02.50:736][851]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.03.14-22.02.50:743][851]MapCheck: New page: Map Check
+[2018.03.14-22.02.50:743][851]LightingResults: New page: Lighting Build
+[2018.03.14-22.02.50:783][851]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.14-22.02.50:795][851]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-22.02.50:813][851]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-22.02.50:871][851]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.343ms to complete.
+[2018.03.14-22.02.50:871][851]LogFileHelpers: Loading map 'Template_Default' took 0.158
+[2018.03.14-22.02.53:320][991]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.03.14-22.02.53:331][991]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.14-22.02.57:324][228]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.14-22.02.57:335][228]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.14-22.03.07:709][826]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2018.03.14-22.03.08:421][826]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-22.03.08:485][826]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.14-22.03.15:568][238]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.14-22.06.12:465][698]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.06.12:496][698]LogBlueprint: Error: [Compiler PlayerNode] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2018.03.14-22.06.12:496][698]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.06.12:608][698]LogBlueprint: Warning: [Compiler PlayerNode] [0250.16] Compile of PlayerNode failed. 2 Fatal Issue(s) 0 Warning(s) [in 143 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.06.32:248][866]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.06.32:278][866]LogBlueprint: Error: [Compiler PlayerNode] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2018.03.14-22.06.32:278][866]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.06.32:368][866]LogBlueprint: Warning: [Compiler PlayerNode] [0269.92] Compile of PlayerNode failed. 2 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.06.49:730][892]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.06.49:760][892]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.06.49:848][892]LogBlueprint: Warning: [Compiler PlayerNode] [0287.40] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 118 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.09.56:885][ 32]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.09.56:917][ 32]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.09.57:012][ 32]LogBlueprint: Warning: [Compiler PlayerNode] [0474.56] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 126 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.10.45:773][933]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.10.51:939][293]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.10.51:970][293]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.10.52:062][293]LogBlueprint: Warning: [Compiler PlayerNode] [0529.61] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 123 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.11.26:223][320]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.11.26:255][320]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.11.26:347][320]LogBlueprint: Warning: [Compiler PlayerNode] [0563.90] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 123 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.12.16:977][340]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.12.17:010][340]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.12.17:104][340]LogBlueprint: Warning: [Compiler PlayerNode] [0614.65] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 126 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.13.17:643][962]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.13.17:676][962]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.13.17:769][962]LogBlueprint: Warning: [Compiler PlayerNode] [0675.32] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.13.24:790][380]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.13.24:823][380]LogBlueprint: Error: [Compiler PlayerNode] The current value of the ' Hit ' pin is invalid: 'Hit' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.14-22.13.24:916][380]LogBlueprint: Warning: [Compiler PlayerNode] [0682.46] Compile of PlayerNode failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms] (/Game/Player/PlayerNode.PlayerNode)
+[2018.03.14-22.15.02:251][189]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-22.15.11:310][729]LogSavePackage: Save=21.02ms
+[2018.03.14-22.15.11:310][729]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Untitled_1_Auto1087263BD43155FAD7EF30BB9D1A51884.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.03.14-22.15.11:311][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.03.14-22.15.11:315][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.047
+[2018.03.14-22.15.11:315][729]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.047
+[2018.03.14-22.15.11:317][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerNode] ([1] browsable assets)...
+[2018.03.14-22.15.11:337][729]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerNode.PlayerNode]
+[2018.03.14-22.15.11:337][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerNode]
+[2018.03.14-22.15.11:435][729]LogSavePackage: Save=90.21ms
+[2018.03.14-22.15.11:435][729]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/PlayerNode_Auto12162805247BB6A8C85E38C8E97F5EDDA.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Autosaves/Game/Player/PlayerNode_Auto1.uasset'
+[2018.03.14-22.15.11:437][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Autosaves/Game/Player/PlayerNode_Auto1.uasset
+[2018.03.14-22.15.11:438][729]LogFileHelpers: Auto-saving content packages took 0.122
+[2018.03.14-22.18.39:803][205]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.18.45:022][497]LogSlate: Took 0.005621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.14-22.18.53:047][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerNode" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset" SILENT=true
+[2018.03.14-22.18.53:145][976]LogSavePackage: Save=94.67ms
+[2018.03.14-22.18.53:145][976]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/PlayerNodeDF1762E7486DE5DFBE88C5BF182A92E3.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset'
+[2018.03.14-22.18.53:150][976]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset
+[2018.03.14-22.19.33:248][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerNode" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset" SILENT=true
+[2018.03.14-22.19.33:345][372]LogSavePackage: Save=93.24ms
+[2018.03.14-22.19.33:345][372]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/PlayerNode3A2E89DD4DCCDBFAB93FB2A732C62C43.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset'
+[2018.03.14-22.19.33:349][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset
+[2018.03.14-22.19.37:855][642]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.19.46:606][143]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.19.46:638][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.19.46:639][143]PIE: New page: PIE session: Untitled_1 (14 Mar 2018 22:19:46)
+[2018.03.14-22.19.46:639][143]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.14-22.19.46:640][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001341s)
+[2018.03.14-22.19.46:641][143]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.14-22.19.46:641][143]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2018.03.14-22.19.46:641][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002689s)
+[2018.03.14-22.19.46:666][143]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.19.46:674][143]LogInit: FAudioDevice initialized.
+[2018.03.14-22.19.46:715][143]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.19.46:721][143]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.03.14-22.19.46
+[2018.03.14-22.19.46:722][143]LogWorld: Bringing up level for play took: 0.002360
+[2018.03.14-22.19.46:796][143]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.03.14-22.19.46:797][143]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.598
+[2018.03.14-22.20.28:754][656]Cmd: DELETE
+[2018.03.14-22.20.28:754][656]Cmd: ACTOR DELETE
+[2018.03.14-22.20.28:754][656]LogEditorActor: Deleted Actor: PlayerStart
+[2018.03.14-22.20.28:773][656]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.14-22.20.52:507][ 77]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.20.52:521][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.20.52:522][ 77]PIE: New page: PIE session: Untitled_1 (14 Mar 2018 22:20:52)
+[2018.03.14-22.20.52:522][ 77]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.14-22.20.52:523][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001378s)
+[2018.03.14-22.20.52:524][ 77]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.14-22.20.52:524][ 77]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2018.03.14-22.20.52:524][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002783s)
+[2018.03.14-22.20.52:572][ 77]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.20.52:578][ 77]LogInit: FAudioDevice initialized.
+[2018.03.14-22.20.52:612][ 77]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.20.52:614][ 77]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.03.14-22.20.52
+[2018.03.14-22.20.52:614][ 77]LogWorld: Bringing up level for play took: 0.001070
+[2018.03.14-22.20.52:615][ 77]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.415
+[2018.03.14-22.20.58:254][409]LogEditorViewport: Clicking on Actor (LMB): PlayerNode_C (PlayerNode)
+[2018.03.14-22.21.00:311][532]Cmd: DELETE
+[2018.03.14-22.21.00:311][532]Cmd: ACTOR DELETE
+[2018.03.14-22.21.00:312][532]LogEditorActor: Deleted Actor: PlayerNode_C
+[2018.03.14-22.21.00:391][532]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2018.03.14-22.21.04:165][759]LogEditorViewport: Clicking Background
+[2018.03.14-22.21.04:699][791]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.03.14-22.21.06:930][923]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.03.14-22.21.51:196][575]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.51:196][575]LogEditorTransaction: Undo Edit Can be Damaged
+[2018.03.14-22.21.51:608][599]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.51:608][599]LogEditorTransaction: Undo Create Actors
+[2018.03.14-22.21.52:307][640]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.52:307][640]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.14-22.21.52:702][662]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.52:702][662]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.14-22.21.53:118][687]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.53:118][687]LogEditorTransaction: Undo Clicking Background
+[2018.03.14-22.21.53:570][714]Cmd: TRANSACTION UNDO
+[2018.03.14-22.21.53:570][714]LogEditorTransaction: Undo Delete Actors
+[2018.03.14-22.22.07:266][501]Cmd: TRANSACTION UNDO
+[2018.03.14-22.22.07:266][501]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.14-22.22.08:027][546]Cmd: TRANSACTION UNDO
+[2018.03.14-22.22.08:027][546]LogEditorTransaction: Undo Create Actors
+[2018.03.14-22.22.08:537][575]Cmd: TRANSACTION UNDO
+[2018.03.14-22.22.08:537][575]LogEditorTransaction: Undo Delete Actors
+[2018.03.14-22.22.08:965][600]Cmd: TRANSACTION UNDO
+[2018.03.14-22.22.08:965][600]LogEditorTransaction: Undo Edit Actor Hidden In Game
+[2018.03.14-22.25.00:258][863]LogSavePackage: Save=19.53ms
+[2018.03.14-22.25.00:258][863]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel2507F3684358D041E443BB845E888E51.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.25.00:263][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.25.00:306][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.25.00:329][863]LogSavePackage: Save=20.06ms
+[2018.03.14-22.25.00:329][863]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltData51FDA8D94B83B31F861F3DB8E27727E5.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.25.00:331][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.25.00:339][863]LogFileHelpers: Saving map 'MainLevel' took 0.582
+[2018.03.14-22.25.00:341][863]Cmd: MAP LOAD FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-22.25.00:355][863]LightingResults: New page: Lighting Build
+[2018.03.14-22.25.00:356][863]LoadErrors: New page: Loading map: MainLevel.umap
+[2018.03.14-22.25.00:357][863]MapCheck: New page: Map Check
+[2018.03.14-22.25.00:357][863]LightingResults: New page: Lighting Build
+[2018.03.14-22.25.00:409][863]LogAIModule: Creating AISystem for world MainLevel
+[2018.03.14-22.25.00:414][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-22.25.00:459][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-22.25.00:507][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.431ms to complete.
+[2018.03.14-22.25.00:507][863]LogFileHelpers: Loading map 'MainLevel' took 0.168
+[2018.03.14-22.27.11:745][718]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.27.11:760][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.27.11:760][718]PIE: New page: PIE session: MainLevel (14 Mar 2018 22:27:11)
+[2018.03.14-22.27.11:760][718]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2018.03.14-22.27.11:762][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2018.03.14-22.27.11:763][718]LogAIModule: Creating AISystem for world MainLevel
+[2018.03.14-22.27.11:763][718]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2018.03.14-22.27.11:764][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003394s)
+[2018.03.14-22.27.11:823][718]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.27.11:831][718]LogInit: FAudioDevice initialized.
+[2018.03.14-22.27.11:862][718]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.27.11:865][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2018.03.14-22.27.11
+[2018.03.14-22.27.11:865][718]LogWorld: Bringing up level for play took: 0.001812
+[2018.03.14-22.27.11:868][718]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.332
+[2018.03.14-22.27.19:405][163]Cmd: DELETE
+[2018.03.14-22.27.19:405][163]Cmd: ACTOR DELETE
+[2018.03.14-22.27.19:406][163]LogEditorActor: Deleted Actor: PlayerNode_C
+[2018.03.14-22.27.19:465][163]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2018.03.14-22.28.53:434][872]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.NodeGame
+[2018.03.14-22.28.53:434][872]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.28.53:434][872]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.03.14-22.28.53:434][872]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.28.53:434][872]LogTemp: BranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.14-22.28.53:454][873]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\benjr\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.14-22.28.59:292][168]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.NodeGame
+[2018.03.14-22.28.59:292][168]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.28.59:292][168]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.03.14-22.28.59:292][168]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.28.59:314][169]LogTemp: BranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.14-22.28.59:330][170]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\benjr\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.14-22.31.56:029][972]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.NodeGame
+[2018.03.14-22.31.56:029][972]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.31.56:029][972]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.03.14-22.31.56:029][972]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.31.56:029][972]LogTemp: BranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.14-22.31.56:055][974]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\benjr\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.14-22.32.22:329][494]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.NodeGame
+[2018.03.14-22.32.22:329][494]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.32.22:329][494]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.03.14-22.32.22:329][494]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.14-22.32.22:329][494]LogTemp: BranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-VHLABJA/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.14-22.32.22:342][494]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\benjr\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.14-22.32.53:275][339]LogSavePackage: Save=19.14ms
+[2018.03.14-22.32.53:275][339]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel60634EBF41F9487F08A10D8B39CE2D7A.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.32.53:280][339]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.32.53:307][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.32.53:330][339]LogSavePackage: Save=14.35ms
+[2018.03.14-22.32.53:330][339]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltData70CF0563444C422D01F3D8BAD576E4FF.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.32.53:332][339]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.32.55:019][440]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.32.55:036][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.32.55:036][440]PIE: New page: PIE session: MainLevel (14 Mar 2018 22:32:55)
+[2018.03.14-22.32.55:036][440]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2018.03.14-22.32.55:038][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2018.03.14-22.32.55:039][440]LogAIModule: Creating AISystem for world MainLevel
+[2018.03.14-22.32.55:039][440]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2018.03.14-22.32.55:040][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003365s)
+[2018.03.14-22.32.55:063][440]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.32.55:071][440]LogInit: FAudioDevice initialized.
+[2018.03.14-22.32.55:106][440]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.32.55:108][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2018.03.14-22.32.55
+[2018.03.14-22.32.55:108][440]LogWorld: Bringing up level for play took: 0.000897
+[2018.03.14-22.32.55:109][440]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.909
+[2018.03.14-22.32.56:124][501]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:140][502]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:156][503]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:173][504]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:190][505]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:207][506]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:224][507]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:240][508]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:257][509]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:273][510]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:290][511]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:306][512]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:323][513]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:340][514]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:357][515]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:374][516]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:389][517]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:406][518]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:423][519]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:440][520]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:456][521]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:473][522]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:490][523]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:506][524]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:523][525]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:540][526]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:557][527]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:573][528]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:590][529]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:606][530]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:623][531]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:641][532]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:657][533]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:673][534]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:890][547]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:906][548]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:923][549]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:940][550]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:956][551]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:973][552]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.56:990][553]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:007][554]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:023][555]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:040][556]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:057][557]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:073][558]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:090][559]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:106][560]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:124][561]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:139][562]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:156][563]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:173][564]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:190][565]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:206][566]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:223][567]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:240][568]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:256][569]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:273][570]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:290][571]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:307][572]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:323][573]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:340][574]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:357][575]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:373][576]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:390][577]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:407][578]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:423][579]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:440][580]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:457][581]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:473][582]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:490][583]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:506][584]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:523][585]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:540][586]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:556][587]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:573][588]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:590][589]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:606][590]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:623][591]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:640][592]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:657][593]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:673][594]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:690][595]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:707][596]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:723][597]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:741][598]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:756][599]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:773][600]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:790][601]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:806][602]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:823][603]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:840][604]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:857][605]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:873][606]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:890][607]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:906][608]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:923][609]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:940][610]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:957][611]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:973][612]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.57:990][613]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:007][614]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:023][615]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:040][616]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:056][617]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:073][618]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:090][619]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:106][620]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:123][621]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:140][622]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:157][623]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:173][624]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:190][625]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:207][626]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:223][627]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:240][628]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:257][629]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:857][665]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:873][666]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:890][667]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:907][668]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:923][669]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:940][670]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:957][671]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:973][672]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.58:990][673]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:007][674]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:023][675]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:040][676]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:056][677]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:073][678]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:090][679]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:106][680]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:123][681]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:140][682]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:156][683]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:173][684]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:190][685]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:206][686]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:223][687]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:240][688]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:257][689]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:273][690]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:290][691]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:307][692]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:324][693]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:340][694]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:357][695]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:373][696]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:390][697]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.32.59:407][698]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:423][759]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:440][760]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:457][761]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:473][762]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:490][763]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:507][764]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:523][765]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:540][766]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:557][767]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:573][768]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:590][769]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:606][770]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:623][771]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:640][772]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:657][773]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:673][774]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:690][775]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:707][776]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:723][777]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:741][778]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:757][779]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:773][780]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:790][781]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:807][782]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:824][783]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:840][784]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:857][785]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:874][786]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:890][787]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:907][788]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:923][789]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:940][790]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:957][791]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:974][792]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.00:990][793]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:007][794]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:023][795]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:040][796]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:057][797]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:073][798]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:090][799]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:107][800]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:123][801]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:141][802]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:157][803]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:173][804]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:190][805]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:206][806]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:223][807]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:240][808]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:257][809]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:273][810]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:290][811]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:306][812]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:323][813]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:340][814]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:357][815]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:373][816]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:390][817]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:407][818]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:423][819]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:440][820]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:457][821]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:473][822]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:490][823]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:507][824]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:523][825]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:540][826]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:557][827]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:573][828]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:590][829]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:607][830]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:623][831]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:640][832]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:657][833]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:673][834]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:691][835]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:707][836]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:724][837]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:741][838]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:757][839]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:773][840]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:790][841]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:807][842]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:823][843]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:840][844]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:857][845]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:873][846]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:890][847]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:907][848]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:923][849]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:940][850]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:957][851]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:973][852]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.01:990][853]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:007][854]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:023][855]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:040][856]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:057][857]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:073][858]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:090][859]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.33.02:107][860]PIE: Warning: PlayerNode_C_0.ShipMeshComponent TwinStickUFO has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.03.14-22.36.49:424][ 69]BlueprintLog: New page: Compile PlayerNode
+[2018.03.14-22.36.50:854][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerNode" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset" SILENT=true
+[2018.03.14-22.36.50:958][131]LogSavePackage: Save=94.34ms
+[2018.03.14-22.36.50:958][131]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/PlayerNode89F5FB83462A52EE528165A81B31EFD6.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset'
+[2018.03.14-22.36.50:963][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset
+[2018.03.14-22.36.55:390][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerNode" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset" SILENT=true
+[2018.03.14-22.36.55:481][395]LogSavePackage: Save=88.02ms
+[2018.03.14-22.36.55:481][395]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/PlayerNode300B85C547706EEC10FBB5876A6E5F6C.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset'
+[2018.03.14-22.36.55:483][395]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Player/PlayerNode.uasset
+[2018.03.14-22.37.03:050][841]LogSavePackage: Save=19.41ms
+[2018.03.14-22.37.03:050][841]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevelCE71E36A4DFAF9BFE9A495ABDA61111E.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.37.03:052][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.37.03:089][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.37.03:102][841]LogSavePackage: Save=10.26ms
+[2018.03.14-22.37.03:102][841]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltData1E58D7964E434BC220209590B592B9C7.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.37.03:104][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.37.13:918][490]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.37.13:937][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.37.13:937][490]PIE: New page: PIE session: MainLevel (14 Mar 2018 22:37:13)
+[2018.03.14-22.37.13:937][490]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2018.03.14-22.37.13:939][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2018.03.14-22.37.13:940][490]LogAIModule: Creating AISystem for world MainLevel
+[2018.03.14-22.37.13:940][490]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2018.03.14-22.37.13:940][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003046s)
+[2018.03.14-22.37.13:967][490]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.37.13:975][490]LogInit: FAudioDevice initialized.
+[2018.03.14-22.37.14:004][490]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.37.14:006][490]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2018.03.14-22.37.14
+[2018.03.14-22.37.14:006][490]LogWorld: Bringing up level for play took: 0.000996
+[2018.03.14-22.37.14:008][490]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.192
+[2018.03.14-22.37.36:625][805]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:1).
+[2018.03.14-22.37.42:939][162]LogActorFactory: Actor Factory created TemplateFloor
+[2018.03.14-22.37.44:634][264]LogActorFactory: Actor Factory created TemplateFloor
+[2018.03.14-22.37.52:979][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.03.14-22.37.54:815][870]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TemplateFloor)
+[2018.03.14-22.37.56:129][947]LogEditorViewport: Clicking Background
+[2018.03.14-22.37.58:942][115]LogEditorViewport: Clicking Background
+[2018.03.14-22.37.59:242][133]Cmd: SELECT NONE
+[2018.03.14-22.38.09:379][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.03.14-22.38.44:375][837]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.14-22.38.44:392][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-22.38.44:392][837]PIE: New page: PIE session: MainLevel (14 Mar 2018 22:38:44)
+[2018.03.14-22.38.44:392][837]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2018.03.14-22.38.44:394][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001583s)
+[2018.03.14-22.38.44:394][837]LogAIModule: Creating AISystem for world MainLevel
+[2018.03.14-22.38.44:395][837]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2018.03.14-22.38.44:395][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003022s)
+[2018.03.14-22.38.44:423][837]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-22.38.44:430][837]LogInit: FAudioDevice initialized.
+[2018.03.14-22.38.44:466][837]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.03.14-22.38.44:469][837]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2018.03.14-22.38.44
+[2018.03.14-22.38.44:470][837]LogWorld: Bringing up level for play took: 0.001959
+[2018.03.14-22.38.44:473][837]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.273
+[2018.03.14-22.38.59:492][728]LogSavePackage: Save=20.34ms
+[2018.03.14-22.38.59:492][728]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevelE0ECD63941EC9C4258FBAA8747244BC6.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.38.59:496][728]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.38.59:524][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.38.59:542][728]LogSavePackage: Save=10.72ms
+[2018.03.14-22.38.59:542][728]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltData309D4A734677956E7467809DCAE7B3EC.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.38.59:543][728]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.39.09:796][340]LogSavePackage: Save=18.98ms
+[2018.03.14-22.39.09:796][340]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevelF277CD8D45BA4523F81709B9B1CC2A7B.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.39.09:797][340]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.39.09:838][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.39.09:850][340]LogSavePackage: Save=9.59ms
+[2018.03.14-22.39.09:850][340]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltData336D46424BB7C338818ADE923E7A7641.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.39.09:852][340]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.39.24:063][192]MapCheck: New page: Map Check
+[2018.03.14-22.39.24:081][192]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.14-22.39.24:081][192]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.14-22.39.24:154][192]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.14-22.39.24:163][192]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.14-22.39.24:930][192]TextureStreamingBuild: Display: Compiling optional shaders took 0.782 seconds.
+[2018.03.14-22.39.24:931][192]LogLevel: Display: Export Material TexCoord Scales took 0.001 seconds.
+[2018.03.14-22.39.24:934][192]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2018.03.14-22.39.24:949][192]LightingResults: New page: Lighting Build - 14 Mar 2018 22:39:24
+[2018.03.14-22.39.25:056][192]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.14-22.39.25:225][192]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.14-22.39.25:240][192]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.14-22.39.26:795][192]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.14-22.39.26:795][192]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9308
+[2018.03.14-22.39.29:404][192]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.14-22.39.29:404][192]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.14-22.39.29:405][192]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.14-22.39.29:405][192]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.14-22.39.29:405][192]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.14-22.39.29:405][192]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.14-22.39.29:561][192]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.14-22.39.29:561][192]MapCheck: New page: MainLevel - 14 Mar 2018 22:39:29
+[2018.03.14-22.39.29:561][192]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.14-22.39.29:623][192]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 62.256ms to complete.
+[2018.03.14-22.39.29:646][192]LogEditorBuildUtils: Build time 0:05
+[2018.03.14-22.39.29:669][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.03.14-22.39.29:679][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2018.03.14-22.39.29:754][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.03.14-22.39.29:769][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.03.14-22.39.38:078][558]Job is a success!
+[2018.03.14-22.39.38:342][559]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.14-22.39.38:342][559]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.14-22.39.38:342][559]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2018.03.14-22.39.38:383][559]Lightmass on DESKTOP-VHLABJA: 6.29 sec total, 131 ms importing, 23 ms setup, 1.25 sec photons, 3.73 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 25.9 sec total, 3.34 sec processing.
+[2018.03.14-22.39.38:410][559]LogStaticLightingSystem: Illumination: 13.4 sec (111 ms encoding lightmaps, 76 ms encoding shadowmaps)
+[2018.03.14-22.39.38:410][559]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.14-22.39.38:410][559]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.14-22.39.39:424][559]DumpUnbuiltLightIteractions
+[2018.03.14-22.39.39:424][559]Lights with unbuilt interactions: 0
+[2018.03.14-22.39.39:424][559]
+[2018.03.14-22.39.39:424][559]Primitives with unbuilt interactions: 0
+[2018.03.14-22.39.39:447][560]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.14-22.39.39:448][560]MapCheck: New page: MainLevel - 14 Mar 2018 22:39:39
+[2018.03.14-22.39.39:517][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.493ms to complete.
+[2018.03.14-22.39.43:756][803]LogSavePackage: Save=20.10ms
+[2018.03.14-22.39.43:756][803]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel8C2BD291408E520AFC201E878A2FDED1.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap'
+[2018.03.14-22.39.43:760][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel.umap
+[2018.03.14-22.39.43:787][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2018.03.14-22.39.43:829][803]LogSavePackage: Save=38.82ms
+[2018.03.14-22.39.43:829][803]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/MainLevel_BuiltDataF209782441247CCD8A157094B185BE64.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset'
+[2018.03.14-22.39.43:832][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Maps/MainLevel_BuiltData.uasset
+[2018.03.14-22.39.51:273][104]LogSavePackage: Save=12.28ms
+[2018.03.14-22.39.51:273][104]LogSavePackage: Moving '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/TwinStickGameMode9E71890C43E5603793A754AEEAF66DCE.tmp' to '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2018.03.14-22.39.51:277][104]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2018.03.14-22.39.51:354][104]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-22.39.51:597][105]Cmd: QUIT_EDITOR
+[2018.03.14-22.39.52:086][105]LogExit: Preparing to exit.
+[2018.03.14-22.39.52:508][105]LogDirectoryWatcher: A directory notification failed for 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/', and we were unable to create a new request.
+[2018.03.14-22.39.52:557][105]LogExit: Editor shut down
+[2018.03.14-22.39.52:565][105]LogExit: Transaction tracking system shut down
+[2018.03.14-22.39.52:779][105]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.14-22.39.52:780][105]LogDirectoryWatcher: A directory notification for '../../../../../../Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/' was aborted.
+[2018.03.14-22.39.52:780][105]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.14-22.39.52:780][105]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.14-22.39.52:780][105]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.14-22.39.52:905][105]LogExit: Object subsystem successfully closed.
+[2018.03.14-22.39.52:949][105]LogD3D11RHI: Shutdown
+[2018.03.14-22.39.52:949][105]LogD3D11RHI: CleanupD3DDevice
+[2018.03.14-22.39.53:048][105]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (544)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (542)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module NewLevelDialog (532)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.03.14-22.39.53:062][105]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.03.14-22.39.53:062][105]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.03.14-22.39.53:063][105]LogDirectoryWatcher: A directory notification for 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Collections/' was aborted.
+[2018.03.14-22.39.53:063][105]LogDirectoryWatcher: A directory notification for 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Content/Developers/benjr/Collections/' was aborted.
+[2018.03.14-22.39.53:063][105]LogDirectoryWatcher: A directory notification for 'C:/Users/benjr/Documents/GitHub/NodesGame/Development Projects/Saved/Collections/' was aborted.
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.03.14-22.39.53:063][105]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.03.14-22.39.53:064][105]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.03.14-22.39.53:065][105]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.03.14-22.39.53:485][105]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.03.14-22.39.53:486][105]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.03.14-22.39.53:541][105]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.03.14-22.39.53:541][105]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.03.14-22.39.53:541][105]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.03.14-22.39.53:541][105]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.03.14-22.39.53:541][105]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.03.14-22.39.53:542][105]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.03.14-22.39.53:543][105]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.03.14-22.39.53:543][105]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.03.14-22.39.53:543][105]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.03.14-22.39.53:543][105]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.03.14-22.39.53:559][105]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.03.14-22.39.53:562][105]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.03.14-22.39.53:563][105]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.03.14-22.39.53:564][105]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.03.14-22.39.53:805][105]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.03.14-22.39.53:806][105]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.14-22.39.53:807][105]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.14-22.39.53:908][105]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.14-22.39.54:009][105]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.14-22.39.54:012][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.14-22.39.54:012][105]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.14-22.39.54:012][105]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.14-22.39.54:013][105]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.14-22.39.54:019][105]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.14-22.39.54:019][105]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.14-22.39.54:020][105]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.14-22.39.54:021][105]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.14-22.39.54:028][105]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.03.14-22.39.54:029][105]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.03.14-22.39.54:030][105]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.03.14-22.39.54:030][105]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.14-22.39.54:033][105]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.14-22.39.54:133][105]LogDerivedDataCache: Shutdown
+[2018.03.14-22.39.54:133][105]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.14-22.39.54:133][105]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.14-22.39.54:133][105]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.14-22.39.54:133][105]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.14-22.39.54:134][105]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.14-22.39.54:135][105]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.14-22.39.54:136][105]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.14-22.39.54:137][105]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.14-22.39.54:137][105]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.14-22.39.54:138][105]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.14-22.39.54:138][105]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.14-22.39.54:138][105]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.14-22.39.54:138][105]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7084D35E-4663-062B-ADEF-92A2ECF13A18%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=abc17b724d788baed385a6bedaf4a7aa%7C1984163285d24256b41664960aff7752%7C1e71d690-2029-4f56-ace4-7463f22f86b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.14-22.39.54:173][105]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.14-22.39.54:177][105]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.14-22.39.54:181][105]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.14-22.39.54:181][105]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.14-22.39.54:181][105]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.14-22.39.54:182][105]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.14-22.39.54:194][105]LogExit: Exiting.
+[2018.03.14-22.39.54:226][105]Log file closed, 03/14/18 22:39:54
